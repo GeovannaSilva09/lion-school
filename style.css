@@ -66,7 +66,7 @@ main {
     height: 78vh;
     width: 100%;
     align-items: center;
-    padding: 0 80px;
+    padding: 12px 200px;
     } 
 
 
@@ -74,9 +74,10 @@ main {
 .home {
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 80px 100px;
     gap: 25vh;
 }
+
 
 
 .dispositivos {
@@ -137,8 +138,8 @@ main {
     align-items: center;
     padding: 40px;
     gap: 10px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-}
+    box-shadow: 12px 12px 0px rgba(51, 71, 176, 0.3);
+} 
 
 .botoes-curso button{
     background-color:var(--primary-color); 
@@ -148,6 +149,33 @@ main {
     border-radius: 5px;   
     font-size: xx-large;     
     cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container-alunos {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 170px;
+    width: 170px;
+    background-color: var(--primary-color);
+    box-shadow: 2px 1px 1px rgb(56, 53, 53);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+}
+
+.fotoAluno{
+    height: 80px;
+    border-radius: 50px;
 }
 
 footer {
